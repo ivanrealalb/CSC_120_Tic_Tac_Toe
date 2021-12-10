@@ -15,7 +15,7 @@ def gamestart():
     count = 0
     for i in range(10):
         printBoard(board)
-        print("It is now your turn," + turn + ".Where would you like to move?")
+        print("It is now your turn!," + turn + ".Where would you like to move?")
         move = input()
         if board[move] == ' ':
             board[move] = turn
